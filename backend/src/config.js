@@ -79,7 +79,17 @@ const GENERIC_DESCRIPTION = "REPLACE THIS"; // Replace with what you want the ge
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
-
+try {
+  const rawContractData = fs.readFileSync(
+    `${basePath}/build/contract/_contract.json`
+  );
+  const contractData = JSON.parse(rawContractData);
+  if (contractData.response === "OK" && contractData.error === null) {
+    CONTRACT_ADDRESS = "0xdC6245f32ccA8cdFFC09Fe680ee9c1d72eBe2D68";
+  }
+} catch (error) {
+  // Do nothing, falling back to manual contract address
+}
 // END NFTPort Info
 
 const solanaMetadata = {
