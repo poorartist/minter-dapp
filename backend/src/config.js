@@ -50,7 +50,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'PoorArtistsManifesto';
-const CONTRACT_SYMBOL = 'C';
+const CONTRACT_SYMBOL = 'POOR';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x54365D7CE5987c8f56c7cFF564163445D2e66B1B';
 const TREASURY_ADDRESS = '0x54365D7CE5987c8f56c7cFF564163445D2e66B1B';
