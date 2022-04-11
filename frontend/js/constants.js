@@ -3,14 +3,14 @@ const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Poor Artists: Join the Movement";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Poor Artists wish to be heard and together we will be.
+const welcome_p = 'Poor Artists wish to be heard and together we will be.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon...";
 const h1_presale_mint = "Pre-Sale Minting Live";
-const h1_public_mint = "Public Minting Live!!";
+const h1_public_mint = "Minting Melee!!";
 const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
 const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "We are working hard with great ideas, just waiting on a little luck.";
-const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
+const p_presale_mint_not_whitelisted = "You no whitelist. Big sad for you.";
 const p_presale_mint_whitelisted = "Whitelist status: Confirmed";
 const p_presale_mint_already_minted = "You've had your turn, now politely wait like everyone else.";
 const p_public_mint = "Commence Operation Clusterfuck";
